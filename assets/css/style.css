@@ -15,16 +15,25 @@ a:hover {
 
 body {
     background-color: white;
+
 }
 
 .header {
+    display: flex;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: #ffffff;
 }
 
+.header img {
+    border-radius: 100%;
+    max-height: 50px;
+}
+
 .header nav {
+display: flex;
+flex-wrap: wrap;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -271,6 +280,7 @@ p {
     display: inline-block;
     margin-left: 25px;
     text-align: center;
+    
 }
 
 
@@ -278,12 +288,44 @@ p {
     color: black;
 }
 
-@media only screen and (max-width:607px) {
+@media screen and (max-width: 607px) {
+    .content-1 {
+width: 40%;
+}
+}
 
+@media screen and (max-width: 607px) {
+    .Module-1-Challenge h2 {
+    font-size: 15px;
+ }
+}  
 
-    }
+@media screen and (max-width: 607px) {
+    .Module-1-Challenge p {
+    font-size: 10px;
+ }
+}  
 
-    @media only screen and (max-width:815px) {
+@media screen and (max-width: 607px) {
+    .link-1-box img {
+    width: 40px;
+}
+}
 
+@media screen and (max-width: 607px) {
+    .content-2 {
+    width: 40%;
+}
+}
 
-    }
+@media screen and (max-width: 607px) {
+    .content-3 {
+    width: 40%;
+}
+}
+
+@media screen and (max-width: 607px) {
+    .Module-1-Challenge img {
+    max-width: 100px;
+ }
+}  
