@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+a:hover {
+  color: blue;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+body {
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header ul li a:hover{
+    color: blue;
+}
+
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-image: url("../images/homepage.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#about-me {
+    background: black;
+    color: white;
+    margin: 20px;
+    padding: 50px;
+
+}
+
+.content-1 {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.Module-1-Challenge {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.Module-1-Challenge img {
+    max-height: 150px;
+}
+
+.link-1 {
+    width: 25%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.link-1-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+
+.link-1-box img {
+    max-height: 100px;
+}
+
+.link-1-box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content-2 {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.Module-02-Portfolio {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.Module-02-Portfolio img {
+    max-height: 150px;
+}
+
+.Module-02-Portfolio h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.link-2 {
+    width: 25%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.link-2-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.link-2-box img {
+    max-height: 100px;
+}
+
+.link-2-box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content-3 {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.Git-Hub-Repositories {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.Git-Hub-Repositories img {
+    max-height: 150px;
+}
+
+.Git-Hub-Repositories h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.link-3 {
+    width: 25%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.link-3-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.link-3-box img {
+    max-height: 100px;
+}
+
+.link-3-box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-align: center;
+}
+
+
+.contact {
+    color: black;
+}
+
